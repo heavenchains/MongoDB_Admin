@@ -1,4 +1,4 @@
-version: "2"
+version: '2'
 
 services:
   app:
@@ -11,4 +11,4 @@ services:
     volumes:
       - ./:/usr/src/app
     ports:
-      - 80:1234
+      - 1234:1234
